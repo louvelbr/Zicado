@@ -1,0 +1,181 @@
+* {
+  padding : 0;
+  margin : 0;
+  font-family: "Century Gothic", 'Lato', sans-serif;
+}
+
+#main {
+	min-height:100vh; 
+	display:flex; 
+	flex-direction:column; 
+}
+
+#milieu {
+	flex-grow:1;
+}
+
+.logo{
+  float: left;
+  max-width: 170px;
+  min-width: 170px;
+  margin-top: 50px;
+  margin-left: 2%;
+  width:5%;
+}
+
+header{
+  text-align: center;
+  background-color: #d8e2dc;
+  background-color: #fff;
+}
+
+.magasin {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header .magasin {
+  font-size: 80px;
+  padding: 40px;
+  letter-spacing: 35px;
+}
+
+.barre {
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: rgb(183,9,76);
+  background: linear-gradient(90deg, rgba(183,9,76,1) 0%, rgba(0,145,173,1) 100%);
+}
+
+.partiePrincipale {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  min-height: 500px;
+  margin: 20px auto;
+  /*margin-top: 20px; */
+  height: 500px;
+  overflow:scroll;
+  overflow-x: hidden; /* On cache le scrollbar horizontal */
+}
+
+.partiePrincipale h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 27px;
+  padding-bottom: 5px;
+  letter-spacing: 0.3rem;
+  color: #264653;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.retour{
+  border-radius: 3px;
+  border: 1px solid darkgrey;
+}
+
+
+a {
+  color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+}
+
+footer{
+  text-align:center;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.6);
+  padding-top: 15px;
+}
+
+
+footer i {
+  color:rgba(255, 255, 255, 0.2);
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: visible;
+  text-align: center;
+  margin: auto;
+  height: 16px;
+  width: 80%;
+}
+
+footer hr:after {
+  background: #1a1a1a;
+  content: ' Z  I  C  A  D  O ';
+  color: rgba(255, 255, 255, 0.2);
+  padding: 0 4px;
+  position: relative;
+  top: -10px;
+}
+
+form label input, select, textarea {
+  /* outline: none; */
+  font-size: 15px;
+  background-color: WHITE;
+  padding: 9px;
+  border:none;
+  box-shadow: inset 0 2px 12px -4px #c5d1d9;
+}
+
+form label input:focus, form label input:hover, select:hover, select:focus, textarea:hover, textarea:focus {
+  outline: none;
+  border:none;
+}
+
+.boutonContact {
+  background: rgb(183,9,76);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, rgba(95,74,123,1) 0%, rgba(0,145,173,1) 100%);
+  color: white;
+  padding: 14px 50px;
+  font-size: 15px;
+  border: none;
+  letter-spacing: 0.1rem;
+  opacity: 100%;
+  transition: all 1s ease;
+}
+
+.boutonContact:hover {
+  color: black;
+  background: white;
+  transition: all 1s ease;
+}
+
+.boutonContact:focus {
+  outline: none;
+}
+
+.boutonContact:last-of-type {
+  margin-left: 15px;
+}
+.bc1 {
+  background: linear-gradient(90deg, rgba(183,9,76,1) 0%, rgba(95,74,123,1) 100%, rgba(0,145,173,1) 100%);
+}
+
+.retour {
+  border: none;
+  padding: 14px 50px;
+  color: black;
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.retour:hover {
+  border: none;
+  padding: 14px 50px;
+  color: black;
+  background: white;
+  box-shadow: inset 0 2px 12px -4px #c5d1d9;
+}
+
+.retour:focus {
+  outline: none;
+}
